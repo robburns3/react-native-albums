@@ -7,11 +7,10 @@ import { Header } from './components/common';
 import LibraryList from './components/LibraryList';
 
 const App = () => {
-  console.log("App");
   return (
     <Provider store={createStore(reducers)}>
       <View style={{ flex: 1 }}>
-        <Header headerText="Library List"/>
+        <Header headerText="Tech Stack"/>
         <LibraryList />
       </View>
     </Provider>
